@@ -10,8 +10,4 @@ public class DependencyInjectionApplication {
 		SpringApplication.run(DependencyInjectionApplication.class, args);
     	System.out.println("-------------------------///////////READY///////////----------------------------------");
 	}
-
-
-
-
 }

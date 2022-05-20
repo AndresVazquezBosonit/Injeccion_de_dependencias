@@ -1,8 +1,6 @@
 package com.dependency.injection.dependencyinjection;
 
 import org.springframework.stereotype.Component;
-
-
 public class Person {
   private String name;
   private String city;

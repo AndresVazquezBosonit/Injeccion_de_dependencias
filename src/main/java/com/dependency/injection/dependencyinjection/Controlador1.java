@@ -5,12 +5,14 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class Controlador1 {
-
+  @Autowired
   CreatePersonService createPersonService;
-
+/*
   public Controlador1(CreatePersonService createPersonService) {
     this.createPersonService = createPersonService;
   }
+
+ */
 
   @GetMapping("/controlador1/addpersona")
   public CreatePersonService getAddPersona(
